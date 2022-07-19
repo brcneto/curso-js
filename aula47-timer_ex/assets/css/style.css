@@ -1,0 +1,39 @@
+:root{
+    --primary-color: rgb(13, 106, 134);
+    --primary-color-darker: rgb(9, 48, 56);
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(13, 106, 134);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto ;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.relogio {
+    font-size: 3em;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.pausado {
+    color: red;
+}
